@@ -2,7 +2,8 @@
 name = "kurtbuilds_fake"
 version = "0.1.0"
 edition = "2021"
-
+license = "MIT"
+description = "fake with a fluent interface"
 
 [lib]
 name = "fake"
