@@ -1,0 +1,17 @@
+[package]
+name = "kurtbuilds_fake"
+version = "0.1.0"
+edition = "2021"
+
+
+[lib]
+name = "fake"
+path = "src/lib.rs"
+
+[features]
+uuid = ["fake/uuid"]
+chrono = ["fake/chrono"]
+derive = ["fake/derive"]
+
+[dependencies]
+fake = { version = "2.10.0" , features = ["derive", "chrono", "uuid"] }
