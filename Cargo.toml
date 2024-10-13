@@ -13,6 +13,7 @@ path = "src/lib.rs"
 uuid = ["fake/uuid"]
 chrono = ["fake/chrono"]
 derive = ["fake/derive"]
+serde_json = ["fake/serde_json"]
 
 [dependencies]
 fake = { version = "2.10.0" , features = ["derive", "chrono", "uuid"] }
