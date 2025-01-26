@@ -1,4 +1,4 @@
-use libfake::*;
+pub use libfake::*;
 
 pub trait FluentFake {
     fn faked() -> Self;
