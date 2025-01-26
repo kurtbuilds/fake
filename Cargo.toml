@@ -10,10 +10,10 @@ name = "fake"
 path = "src/lib.rs"
 
 [features]
-uuid = ["fake/uuid"]
-chrono = ["fake/chrono"]
-derive = ["fake/derive"]
-serde_json = ["fake/serde_json"]
+uuid = ["libfake/uuid"]
+chrono = ["libfake/chrono"]
+derive = ["libfake/derive"]
+serde_json = ["libfake/serde_json"]
 
 [dependencies]
-fake = { version = "3.1.0", features = ["derive", "chrono", "uuid"] }
+libfake = { version = "3.1.0", features = ["derive", "chrono", "uuid"], package = "fake" }
