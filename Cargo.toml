@@ -1,6 +1,6 @@
 [package]
 name = "kurtbuilds_fake"
-version = "0.2.1"
+version = "0.3.0"
 edition = "2021"
 license = "MIT"
 description = "fake with a fluent interface"
@@ -16,4 +16,4 @@ derive = ["libfake/derive"]
 serde_json = ["libfake/serde_json"]
 
 [dependencies]
-libfake = { version = "3.1.0", features = ["derive", "chrono", "uuid"], package = "fake" }
+libfake = { version = "4.0.0", features = ["derive", "chrono", "uuid"], package = "fake" }
